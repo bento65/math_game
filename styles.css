@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f8f8f8, #0ba0ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 5px solid #546e7a;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #37474f;
+}
+
+#score, #timer {
+    font-size: 1.5rem;
+    color: #37474f;
+    margin: 10px 0;
+}
+
+#question {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #546e7a;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #455a64;
+}
+
+#social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 34px;
+    /* Ajuste o tamanho conforme necessário */
+    height: 34px;
+    margin: 0 5px;
+    /* Espaço entre os ícones */
+}
+
+#social-media a {
+    text-decoration: none;
+    /* Remove o sublinhado */
+}
+
+#social-media a:hover .social-icon {
+    opacity: 0.7;
+    /* Efeito ao passar o mouse */
+}
+
+#footer {
+    font-size: 10px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 15px;
+    color: #fa08b1fa;
+}
